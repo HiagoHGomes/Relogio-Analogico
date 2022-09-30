@@ -35,15 +35,18 @@ let hour = now.getHours(); //Pegar as horas
 if (hour >=0 && hour <6) {
     //boa madrugada
     document.querySelector('body').style.background = '#0d0e12'
+    document.querySelector('body').style.backgroundImage = 'url(images/madrugada.jpg)'
     document.querySelector('h3').innerHTML="Boa madrugada!";
 
 }else if(hour >=6 && hour <12){
     //bom dia
     document.querySelector('body').style.background = '#7d92b1'
+    document.querySelector('body').style.backgroundImage = 'url(images/dia.jpg)'
     document.querySelector('h3').innerHTML="Bom dia!";
 }else if (hour>=12 && hour <18){
     //boa tarde
     document.querySelector('body').style.background = '#ff6002'
+    document.querySelector('body').style.backgroundImage = 'url(images/tarde.jpg)'
     document.querySelector('h3').innerHTML="Boa tarde!";
 }else{
     //boa noite
