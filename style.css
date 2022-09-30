@@ -11,6 +11,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #333;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
