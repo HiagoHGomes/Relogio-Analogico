@@ -38,7 +38,7 @@ h1 {
     width: 145px;
     height: 5px;
     position: absolute;
-    transform-origin: left;
+    transform-origin: left; /*Mudar o eixo de lugar*/
     display: flex;
     justify-content: flex-end;
 }
@@ -92,8 +92,14 @@ h1 {
     margin-top: 20px;
 }
 
-footer {
+h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+footer, a{
     margin-top: 20px;
     color: #FFF;
     font-size: 13px;
 }
+
